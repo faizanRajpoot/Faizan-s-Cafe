@@ -1,0 +1,28 @@
+html{
+    --color-primary:rgba(173, 169, 169, 0.589);
+    --color-secondary: rgba(34, 21, 21, 0.74);
+    --color-primary-head: rgb(238, 179, 15);
+    --color-secondary-back: white;
+    --color-li:rgba(145, 136, 62, 0.877);
+    --color-nav:rgb(240, 240, 240);
+    --color-border: rgb(0, 0, 0);
+    --color-2-primary: rgb(141, 141, 24);
+    --color-2-secondary:white;
+    --color-2-tertiary:rgb(0, 0, 0);
+    --header-img: linear-gradient(var(--color-primary), var(--color-secondary)), url(../img/menu-3206749__340.webp);
+}
+
+
+html[data-theme="dark"] {
+    --color-primary:rgba(97, 95, 95, 0.26);
+    --color-secondary: rgba(2, 1, 1, 0.822);
+    --color-primary-head: rgb(199, 231, 18);
+    --color-secondary-back: white;
+    --color-li:rgba(196, 177, 6, 0.877);
+    --color-nav:rgb(31, 28, 28);
+    --color-border: yellow;
+    --color-2-primary: rgb(255, 255, 50);
+    --color-2-secondary:rgb(82, 80, 80);
+    --color-2-tertiary:white;
+    --header-img: linear-gradient(to left, var(--color-primary), var(--color-secondary)), url(../img/istockphoto-1308841987-170667a.jpg); 
+}

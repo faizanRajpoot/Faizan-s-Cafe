@@ -1,0 +1,278 @@
+@media screen and (max-width: 1200px) {
+  .skills .box-1 {
+    width: 40%;
+  }
+  .skills .box-1 .content {
+    padding: 4rem !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .skills .box-1 {
+    width: 40%;
+  }
+  .skills .box-1 .content {
+    padding: 4rem !important;
+  }
+  .skills .box-1 .content h1 {
+    font-size: 14px;
+  }
+  .skills .box-1 .content p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .skills {
+    padding: 3rem;
+  }
+  .skills .box-1 {
+    width: 100%;
+  }
+  .skills .box-1 .content {
+    padding: 4rem !important;
+  }
+  .skills .box-1 .content h1 {
+    font-size: 20px;
+  }
+  .skills .box-1 .content p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .skills {
+    padding: 0rem !important;
+  }
+  .skills .box-1 {
+    width: 100%;
+  }
+  .skills .box-1 .content {
+    padding: 4rem !important;
+  }
+  .skills .box-1 .content h1 {
+    font-size: 20px;
+  }
+  .skills .box-1 .content p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .aboot .about {
+    margin: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .aboot .about {
+    margin: 100px 45px;
+  }
+  .aboot .about-content p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 701px) {
+  .aboot .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 100px 45px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aboot .about-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .aboot .about-content {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .aboot .about-content p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .aboot .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 100px 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aboot .about-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 200px;
+    width: 300px;
+  }
+  .aboot .about-content {
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .aboot .about-content p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .products .products_card {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .products .products_card .card {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .products_content {
+    width: 300px;
+  }
+  .products_content p {
+    font-size: 14px;
+  }
+  .products .products_card {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .products .products_card .card {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .products {
+    padding: 2rem 4rem;
+  }
+  .products_content {
+    width: 100%;
+  }
+  .products_content p {
+    font-size: 14px;
+  }
+  .products .products_card {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .products .products_card .card {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .products {
+    padding: 2rem;
+  }
+  .products_content {
+    width: 100%;
+  }
+  .products_content p {
+    font-size: 14px;
+  }
+  .products_content a {
+    font-size: 12px;
+    padding: .6rem .8rem;
+  }
+  .products .products_card {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .products .products_card .card {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .services .content {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .services {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10rem 4rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-content h1 {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
