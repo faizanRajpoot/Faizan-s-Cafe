@@ -547,6 +547,7 @@ html[data-theme="dark"] {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 200px;
+  width: 280px;
 }
 
 .services_card .back .icon-box {
@@ -635,6 +636,8 @@ html[data-theme="dark"] {
 }
 
 .form-content_2 input {
+  background-color: var(--color-2-secondary);
+  color: black;
   width: 100%;
   font-size: 20px;
   margin-bottom: 30px;
@@ -649,6 +652,7 @@ html[data-theme="dark"] {
 }
 
 .form-content_2 .message {
+  background-color: var(--color-2-secondary);
   width: 100%;
   border: none;
   margin-top: 10px;

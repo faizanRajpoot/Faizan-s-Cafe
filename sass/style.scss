@@ -368,6 +368,7 @@ margin-top: 100px;
                 border-top-left-radius: 10px;
                 border-top-right-radius: 10px;
             height: 200px;
+            width: 280px;
             }
             .icon-box{
                 display: flex;
@@ -437,8 +438,9 @@ margin-top: 100px;
         // background-color: greenyellow;
         
         input{
+            background-color: var(--color-2-secondary);
             // color: rgb(168, 120, 15);
-            // color: black;
+            color: black;
             width: 100%;
             font-size: 20px;
             margin-bottom: 30px;
@@ -451,6 +453,7 @@ margin-top: 100px;
             }
         }
         .message{
+            background-color: var(--color-2-secondary);
             width: 100%;
             border: none;
             margin-top: 10px;
